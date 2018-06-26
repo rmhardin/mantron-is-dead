@@ -1,8 +1,8 @@
-# CodeLou_FrontEnd
+# Rachel Hardin: Code Louisville Front End Project SP2018
 
 ## Description
 ```
-A brief description of your project
+This project is a simple website for a friend who is currently on hiatus from live-streaming video games. He is hoping to return soon, and this site will offer a simple way for his fans to interact with him and check on his status. Because of his sudden disappearance from streaming, there is a running joke that he is dead, so the site plays off of that.
 
 ```
 
