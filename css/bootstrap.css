@@ -64,9 +64,10 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
+  /* edited body text color, background color, and alignment */
+  color: black;
+  text-align: center;
+  background-color: lightgray;
 }
 
 [tabindex="-1"]:focus {
@@ -161,14 +162,15 @@ sup {
 }
 
 a {
-  color: #007bff;
+  /* I edited the color on these to have no difference from the standard text */
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
+  /* I edited the color on this to be more suited to the aesthetic of the site */
+  color: palevioletred;
   text-decoration: underline;
 }
 
@@ -3896,7 +3898,8 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  /* changed background color of nav pills */
+  background-color: black;
 }
 
 .nav-fill .nav-item {
