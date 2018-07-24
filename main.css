@@ -1,0 +1,147 @@
+body {
+    font-family: "Lucida Console", Lucida, monospace;
+    
+}
+
+p {
+    color: lightgray;
+    text-align: justify;
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+h2 {
+    font-size: 1.875rem;
+    color: white;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: palevioletred;
+    text-decoration: line-through;
+    text-align: center;
+    margin: 1rem;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: lightgray;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: mediumvioletred;
+}
+
+.nav {
+    background-color: black;
+    position: relative;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 100%;
+    }
+
+.column {
+    background-color: black;
+    position: relative;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    }
+
+.pressme {
+    width:100%;
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    text-decoration: line-through;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: .5rem;
+    padding-bottom: .5rem; 
+    
+}
+
+.pressme:hover {
+    background-color: white;
+    color: black;
+    transform: rotate(180deg);
+}
+
+/*styling for mobile*/
+@media only screen and (max-width : 767px) {
+.menu {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;      
+}
+
+.nav {
+    padding: 1rem;
+}
+
+
+}
+
+/* styling for desktop & tablet */
+@media only screen and (min-width : 768px) {
+ 
+
+.column {
+    width: 40%;
+    
+}
+
+#db {
+    float:left;
+    position:relative;
+}
+
+#fortune {
+    right:1rem;
+    position:absolute;
+    bottom: 50%;
+}
+.twitter {
+    position: absolute;
+    bottom: 25%;   
+    left: 1rem;
+     
+}
+
+.title {
+    position: relative;
+    top: 50%;
+    text-align: center;
+   
+}
+
+
+
+.podcast {
+    position: absolute;
+    bottom: 25%;
+    right: 1rem;
+   }
+}
+
