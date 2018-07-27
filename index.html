@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="main.css">
     <!-- I wanted to add a Favicon to my site, so I did a little research on my own to figure out how to do that.-->
     <link rel="icon" type="image/icon" href="favicon.ico">
-    <title>mantron isnt dead</title>
+    <title>mantron is dead</title>
     
 </head>
 <body>
+  <!-- Though this is a single page site, I wanted to include links to other relevant sites.
+  Through css styling, the title of the site is positioned centrally between the two other links at desktop/tablet breakpoint
+and at the top of the stacked links at the mobile breakpoint. -->
       <div class="nav">
         <div class="menu title"><h2>MANTRON IS DEAD</h2></div>
         <div class="menu twitter"><a href="https://www.twitter.com/yesmantron" target="_blank">twitter</a></div>
         <div class="menu podcast"><a href="http://www.horrorblepodcast.com" target="_blank">podcast</a></div>   
       </div>
+      <!-- Putting my columns in a container allowed me to more easily size the columns by percentage,
+      changing to take up the full width of the container at the mobile breakpoint so they stack. -->
       <div class="container">
       <div class="column" id="db"><h3>dearly beloved</h3><p>If one examines postdialectic theory, one is faced with a choice: either
         accept surrealism or conclude that narrative comes from communication, but only
@@ -24,12 +29,13 @@
         Burroughs deconstructs capitalist precultural theory; in Naked Lunch,
         however, he denies submodernist Marxism. Many materialisms concerning
         postdialectic theory exist.</p></div>
-        
+        <!-- This column has a default text that changes upon clicking the "pressme" item through a custom javascript function -->
         <div class="column" id="fortune">
           <div class="pressme" id="clicker" onclick="fortuneFunction()">test his fate</div>
           <p id="cookie">many have inquired as to his return. perhaps you may be the arbiter of his fate. what shall it be?</p>
       </div>  
             </div> 
 </body>
+<!-- My Custom JavaScript -->
 <script src="script.js"></script>
 </html>
